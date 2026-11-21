@@ -1,0 +1,6 @@
+﻿Standup notes
+
+Shipped sharing roles.
+Working on import.
+
+Blocked: nothing.

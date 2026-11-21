@@ -1,0 +1,23 @@
+# One-click deploy on Render's free tier: New → Blueprint → pick this repo.
+# Set DATABASE_URL / DATABASE_AUTH_TOKEN to a free Turso database for durable storage.
+# Without them the app still runs, on a local SQLite file that resets when the free instance restarts.
+services:
+  - type: web
+    name: folio-docs
+    runtime: node
+    plan: free
+    region: virginia   # closest Render region to the Turso DB (aws-sa-east-1)
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/users
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22"
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_AUTH_TOKEN
+        sync: false
