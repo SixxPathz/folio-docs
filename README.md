@@ -3,7 +3,8 @@
 A lightweight collaborative document editor built for the Ajaia AI-Native Full Stack take-home.
 You can create, format, import, share and reopen documents, with owner/editor/viewer access enforced on the server.
 
-**Live app:** `https://<your-service>.onrender.com` (see [SUBMISSION.md](SUBMISSION.md))
+**Live app:** https://folio-docs-q48q.onrender.com. On the free tier, the first load after an idle period can take about 30–50 seconds.
+**Source:** https://github.com/SixxPathz/folio-docs
 **Walkthrough video:** see [VIDEO_URL.txt](VIDEO_URL.txt)
 
 ![Editor](docs/screenshots/03-editor-owner.png)
