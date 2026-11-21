@@ -2,7 +2,7 @@
 
 **Live product:** https://folio-docs-q48q.onrender.com. On the free tier, the first load after an idle period can take about 30–50 seconds.
 **Source code:** https://github.com/SixxPathz/folio-docs (also in this folder)
-**Walkthrough video:** see `VIDEO_URL.txt`
+**Walkthrough video:** https://youtu.be/8tHe7igO3_g (also in `VIDEO_URL.txt`)
 **Test accounts:** no passwords. Pick a person on the sign-in page and use *Switch user* to change.
 - `amara@ajaia.test`: owns *Q4 planning brief* (shared with Ben as editor)
 - `ben@ajaia.test`: owns *Hiring loop notes* (shared with Amara as viewer)

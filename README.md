@@ -5,7 +5,7 @@ You can create, format, import, share and reopen documents, with owner/editor/vi
 
 **Live app:** https://folio-docs-q48q.onrender.com. On the free tier, the first load after an idle period can take about 30–50 seconds.
 **Source:** https://github.com/SixxPathz/folio-docs
-**Walkthrough video:** see [VIDEO_URL.txt](VIDEO_URL.txt)
+**Walkthrough video:** https://youtu.be/8tHe7igO3_g
 
 ![Editor](docs/screenshots/03-editor-owner.png)
 
